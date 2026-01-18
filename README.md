@@ -88,7 +88,7 @@ Output
 Input
 - base model name
 - hyper-params
-- jsonl file
+- no jsonl file (dataset is loaded from internet)
 - grader function
 
 Output:
