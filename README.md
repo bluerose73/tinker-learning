@@ -20,7 +20,7 @@ Inference is fast based on my experience. Seems no rate limit.
 - Create a `training_client` from a base model (configure lora rank here)
 - User define a custom loss function, or select an existing loss function tinker provides
 - Call `training_client.forward_backword(data, loss_fn)` to calculate gradients and the loss. Loss function is passed in as a callback
-- Call optim_step() to update the weights. It uses Adam optimizer
+- Call `optim_step()` to update the weights. It uses Adam optimizer
 
 A training script is available in `tinker-cookbook`.
 
