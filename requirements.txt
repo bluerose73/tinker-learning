@@ -1,0 +1,2 @@
+tinker
+git+https://github.com/thinking-machines-lab/tinker-cookbook.git@9a31afdb570eab957bca2ad21a0935f9d81e3239
