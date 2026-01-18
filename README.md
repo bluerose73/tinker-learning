@@ -59,7 +59,7 @@ Pros:
 
 Cons:
 - Only supports LoRA with Adam optimizer
-- Limited base model selection (~20) open-source models
+- Limited base model selection (~20 open-source models)
 - RL grader runs locally. If the grader is heavy, like agent training, users still needs grader infra.
 
 ## Scripts in this repo
