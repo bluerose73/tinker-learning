@@ -22,7 +22,9 @@ Inference is fast based on my experience. Seems no rate limit.
 - Call `training_client.forward_backword(data, loss_fn)` to calculate gradients and the loss. Loss function is passed in as a callback
 - Call `optim_step()` to update the weights. It uses Adam optimizer
 
-A training script is available in `tinker-cookbook`.
+A [training script](https://github.com/thinking-machines-lab/tinker-cookbook/blob/main/tinker_cookbook/recipes/sl_basic.py) is available in `tinker-cookbook`.
+
+If the user instead wants to write his own training loop, an example is [here](https://github.com/thinking-machines-lab/tinker-cookbook/blob/main/tinker_cookbook/recipes/sl_loop.py).
 
 ### Tinker for RL
 
@@ -33,7 +35,9 @@ There is no specific APIs for RL. Users write RL script by combining inference a
 - Call `training_client.forward_backword(data, loss_fn)` to calculate gradients (`data` passed to `forward_backward` includes reward)
 - Create a new sampler from updated weights
 
-An RL script is available in `tinker-cookbook`. Using that script, user only needs to write the dataset class and the grader class (named `Env`).
+An [RL script](https://github.com/thinking-machines-lab/tinker-cookbook/blob/main/tinker_cookbook/recipes/rl_basic.py) is available in `tinker-cookbook`. Using that script, user only needs to write the dataset class and the grader class (named `Env`).
+
+If the user instead wants to write his own training loop, an example is [here](https://github.com/thinking-machines-lab/tinker-cookbook/blob/main/tinker_cookbook/recipes/rl_loop.py)
 
 ### Tinker features
 
