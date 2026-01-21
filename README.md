@@ -6,6 +6,8 @@ To make things easier, they build many tools and recipes in [tinker-cookbook](ht
 
 In this repo, I will demonstrate how to use tinker for inference, SFT, and RL, using GSM8k dataset as an example.
 
+There is also a short review for together.ai training in this repo. [together-ai.md](together-ai.md)
+
 ## My comments on Tinker
 
 ### Tinker for inference
