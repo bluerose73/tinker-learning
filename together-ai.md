@@ -1,6 +1,6 @@
 # Model Training Using together.ai
 
-Together.ai provides two services for model training: 1) fine-tuning job and 2) clusters.
+Together.ai provides two services for model training: 1) [fine-tuning job](https://docs.together.ai/docs/fine-tuning-quickstart) and 2) [clusters](https://docs.together.ai/docs/instant-clusters).
 
 ## Fine-Tuning Job
 
