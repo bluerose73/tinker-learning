@@ -22,7 +22,7 @@ User has two options on where the Evaluator runs:
 
 #### Remote Rollout
 
-With remote rollout, the user's infrastructure handles rollout and grading, and fireworks handles training.
+With remote rollout, the user's infrastructure handles rollout, while fireworks handles training and grading.
 
 When is it useful?
 - Multi-turn conversations. The default low-code RL only supports single-turn.
